@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jidicula/adventofcode"
+	"adventofcode"
 )
 
 type point struct {

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jidicula/adventofcode"
+	"adventofcode"
 )
 
 type Instruction struct {

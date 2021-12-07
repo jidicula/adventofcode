@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/jidicula/adventofcode"
+	"adventofcode"
 )
 
 func main() {

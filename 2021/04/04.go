@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jidicula/adventofcode"
+	"adventofcode"
 )
 
 type card struct {
@@ -49,7 +49,7 @@ type cardValue struct {
 
 func main() {
 	// inputs := adventofcode.ReadInput("test.txt")
-	inputs := adventofcode.ReadInput("input.txt")
+	inputs := adventofcode.ReadInput("input2.txt")
 	calls, cards := processInput(inputs)
 
 	partTwo(calls, cards)
